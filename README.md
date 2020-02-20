@@ -1,4 +1,4 @@
-# thenuxtorigin
+# thenuxtorigin-client
 
 > My remarkable Nuxt.js project
 
