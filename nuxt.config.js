@@ -23,11 +23,13 @@ export default {
   ** Global CSS
   */
   css: [
+    
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/i18n.js'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -61,5 +63,19 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  router: {
+    middleware: 'i18n'
+  },
+  generate: {
+    routes: ['/', '/vi']
+    // must have _lang folder in pages and exact views,
+    // the views outside of _lang folder only import from the views in _lang folder
+    // For ex:
+    // pages
+    //   _lang
+    //     about.vue
+    //   about.vue (import About from '~/pages/_lang/about'; export default About)
+    // sorry, i have to explain it right :D
   }
 }

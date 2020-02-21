@@ -1,0 +1,11 @@
+{
+  "home": {
+    "title": "Welcome",
+    "introduction": "This is an introduction in English.",
+    "navbar": "This is a navbar",
+    "header": "This is a header",
+    "sidebar": "This is a sidebar",
+    "footer": "This is a footer"
+  }
+}
+  
