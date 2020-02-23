@@ -24,6 +24,9 @@ export default {
         'Footer',
       ]
     }
+  },
+  mounted() {
+    console.log(process.env.theme);
   }
 }
 </script>

@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   /*
@@ -77,5 +76,5 @@ export default {
     //     about.vue
     //   about.vue (import About from '~/pages/_lang/about'; export default About)
     // sorry, i have to explain it right :D
-  }
+  },
 }

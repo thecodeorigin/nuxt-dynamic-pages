@@ -5,7 +5,7 @@
 # Theme setup
 > This project support multi-theme support
 ## .env file
-> Choose your themes by changing
+> Choose your themes by creating
 ``` bash
 .env
 # with the following content:
@@ -36,18 +36,19 @@ in conclusion:
 
 # Use the project
 ## As usual, you do the project with
--layouts
--middleware
--pages
--static
--store
--plugins
+- layouts
+- middleware
+- pages
+- static
+- store
+- plugins
 ## Now you have
--constants
--data
--locales
--themes
+- constants
+- data
+- locales
+- themes
 ## All your assets and components are moved to ~themes/[YOUR_THEME_FOLDER]
+## Change the custom scss files in your layout file in <style> tag 
 
 ## Build Setup
 

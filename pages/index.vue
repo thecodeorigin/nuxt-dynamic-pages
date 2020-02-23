@@ -1,5 +1,7 @@
 <template>
-  <ExampleComponent/>
+  <b-container>
+
+  </b-container>
 </template>
 
 <script>
@@ -13,7 +15,7 @@ export default {
     }
   },
   components: {
-    ExampleComponent: () => import(process.env.COMPONENTS_URL + 'ExampleComponent.vue')
+
   },
   created () {
 
