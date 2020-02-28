@@ -41,3 +41,8 @@
 @import 'assets/scss/bootstrap-vue/components/tooltip.scss';
 
 @import 'assets/scss/bootstrap-vue/others/variants.scss';
+
+// Import Bootstrap and BootstrapVue source SCSS files
+// This is required! For variants customization for your theme!
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';

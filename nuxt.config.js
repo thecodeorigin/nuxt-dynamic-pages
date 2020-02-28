@@ -22,7 +22,8 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/assets/scss/main.scss'
+    '~/assets/scss/bootstrap-vue/custom.scss',
+    '~/assets/scss/main.scss',
   ],
   /*
   ** Plugins to load before mounting the App
@@ -32,6 +33,7 @@ export default {
     '~/plugins/i18n.js',
     // Utilities
     '~/utils/bus.js', // Event bus
+    '~/utils/filters.js', // Filters for displaying text
     '~/utils/utils.js', // Global helper functions, use this.$function_name()
     // Constant shop
     '~/constants/shop.js' // Global variables, use this.$variable

@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <b-container fluid class="p-0">
     <component v-for="section in layout" :is="section" :key="section"></component>
-  </div>
+  </b-container>
 </template>
 
 <script>
@@ -28,12 +28,5 @@ export default {
 </script>
 
 <style lang="scss">
-  // Import custom SASS variable overrides, or alternatively
-  // define your variable overrides here instead
-  @import 'assets/scss/bootstrap-vue/custom.scss';
 
-  // Import Bootstrap and BootstrapVue source SCSS files
-  // This is required! For variants customization for your theme!
-  @import '~bootstrap/scss/bootstrap.scss';
-  @import '~bootstrap-vue/src/index.scss';
 </style>

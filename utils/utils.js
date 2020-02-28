@@ -13,8 +13,8 @@ export default ({ app }, inject) => {
     // Example call this.$hello('Your name') in any where // 'Hello Your name' is the result
     inject('hello', (name) => {
         console.log(`Hello ${name}`);
-    })
+    });
     inject('get_template', (template) => {
-        return () => import( '~/templates/' + template + '.vue')
-    })
+        return () => import( '~/templates/' + template + '.vue');
+    });
 }
