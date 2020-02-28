@@ -1,12 +1,13 @@
 <template>
   <b-container>
-
+    <ExampleComponent/>
   </b-container>
 </template>
 
 <script>
+
 export default {
-  layout: process.env.THEME,
+  layout: 'home',
   name: 'Home',
   head () {
     return {
@@ -15,6 +16,9 @@ export default {
     }
   },
   components: {
+    ExampleComponent: () => import('~/components/ExampleComponent.vue'),
+  },
+  methods: {
 
   },
   created () {

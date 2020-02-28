@@ -22,13 +22,19 @@ export default {
   ** Global CSS
   */
   css: [
-    
+    '~/assets/scss/main.scss'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/i18n.js'
+    // Plugins
+    '~/plugins/i18n.js',
+    // Utilities
+    '~/utils/bus.js', // Event bus
+    '~/utils/utils.js', // Global helper functions, use this.$function_name()
+    // Constant shop
+    '~/constants/shop.js' // Global variables, use this.$variable
   ],
   /*
   ** Nuxt.js dev-modules
