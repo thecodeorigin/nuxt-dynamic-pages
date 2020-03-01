@@ -7,7 +7,7 @@
 <script>
 
 export default {
-  layout: 'home',
+  layout: 'page',
   name: 'Home',
   head () {
     return {
