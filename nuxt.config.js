@@ -77,6 +77,7 @@ export default {
   generate: {
     routes: ['/', '/vi']
     // must have _lang folder in pages and exact views,
+    // ['/', '/something', '/en', '/en/something']
     // the views outside of _lang folder only import from the views in _lang folder
     // For ex:
     // pages
