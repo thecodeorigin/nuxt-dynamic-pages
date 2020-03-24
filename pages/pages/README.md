@@ -1,1 +1,0 @@
-# This contains the landing pages of websites (use with template)
